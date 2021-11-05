@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mobile-view">
+        <div class="logo-header">
+          <img src="./images/logo.svg" alt="" srcset="" />
+        </div>
+        <div class="main-image">
+          <img src="./images/hero-mobile.jpg" alt="" />
+        </div>
+      </div>
+      <div class="main-section">
+        <div class="desktop-logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="main-text-wrapper">
+          <h1 class="text-header">We're <strong>coming soon</strong></h1>
+          <p class="description">
+            Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our
+            launch deals.
+          </p>
+        </div>
+        <div class="input-section">
+          <div class="email-section">
+            <div class="email-wrapper">
+              <input type="email" id="email" placeholder="Email Address" onfocus="inputElement()" />
+            </div>
+            <div class="image-wrapper" onclick="checkEmail()">
+              <img src="./images/icon-arrow.svg" alt="" srcset="">
+            </div>
+            <div class="error-img-wrapper">
+              <img src="./images/icon-error.svg" alt="" srcset="">
+            </div>
+          </div>
+          <div class="error-message">
+            <p>Please provide a valid email</p>
+          </div>
+        </div>
+        <div class="desktop-atribute">
+          <p class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="https://github.com/kristishh" target="_blank">Kristiyan Tishev</a>.
+          </p>
+        </div>
+      </div>
+      <div class="desktop-view">
+        <div class="hero-desktop">
+          <img src="./images/hero-desktop.jpg" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/kristishh" target="_blank">Kristiyan Tishev</a>.
+      </p>
+    </footer>
+  </body>
+  <script src="./solution.js"></script>
+</html>
